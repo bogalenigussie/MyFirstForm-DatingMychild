@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<title>Application form</title>
+<link rel="home icon" type="image/x-icon" href="favicon.png">
+
+<head>
+    <style>
+        .div1 {
+            background-color: rgba(253, 253, 253, 0.632);
+            color: black;
+            align-items: center;
+            border: 2px solid black;
+            margin: 0px;
+            padding: 5px;
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        
+        .div2 {
+            background-color: rgb(130, 183, 123);
+            color: black;
+            margin: 9px;
+            padding: 20px;
+            width: 100%;
+        }
+        
+        .div3 {
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .div4 {
+            text-align: left;
+            font-family: 'Segoe UI';
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .div5 {
+            background-color: rgb(171, 185, 91);
+            ;
+            margin: 5px;
+            padding: 20px;
+            border: 8px solid black;
+            width: 90%;
+        }
+        
+        .div6 {
+            align-items: center;
+            text-align: center;
+            font-family: monospace;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .button {
+            margin-left: 40%;
+            margin-right: 40%;
+            background-color: rgb(167, 23, 23);
+            color: white;
+            width: 150px;
+            height: 40px;
+        }
+    </style>
+</head>
+<form class="div1" class="div5">
+
+    <body class="div2">
+        <h2 class="div6"> Application For Permission To Date My Daughter</h2>
+        <audio src="teddy">teddy afro</audio>
+        <p class="div4"> Note: form is to be completed at least 21 days prior to date</p>
+        <fieldset>
+            <legend class="div3">Personal Details:</legend>
+            <label for="fname">Full name:</label>
+            <input type="text" id="fname" name="fname" value="Enter your Full Name "><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="Enter your Email "><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" value="Enter Your Address here "><br><br>
+            <label for="phone">Enter a phone number:</label><br><br>
+            <input type="tel" id="phone" name="phone" placeholder="+358-508-457942" pattern="+-[0-9]{3}-[0-9]{3}-[0-9]{6}" required><br><br>
+            <small>Format: +358-508-457942</small><br><br>
+            <label for="IQ">IQ:</label>
+            <input type="IQ" id="IQ" name="IQ" value="Enter IQ here "><br><br>
+            <p> <strong>GENDER </strong> </p>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="sex" value="other">
+            <label for="other">Other</label><br><br>
+            <label for="date">Proposed Date of Outing:</label>
+            <input type="date" id="date" name="date">
+        </fieldset><br>
+        <fieldset>
+            <p> Check All that apply</p>
+            <input type="checkbox" id="tattoos" name="tattoos" value="tattoos">
+            <label for="tattoos"></label> I have tattoos and/or piercings </label><br>
+            <input type="checkbox" id="olderAge" name="olderAge" value="olderAge">
+            <label for="olderAge"></label> I am morethan 2 years older than your Daughter </label><br>
+            <input type="checkbox" id="car" name="car" value="car">
+            <label for="car"></label> I own a panel van or v8 ute </label><br>
+            <input type="checkbox" id="job" name="job" value="job">
+            <label for="job"></label>I work full time</label><br>
+            <input type="checkbox" id="parents" name="parents" value="parents">
+            <label for="parents"></label>my parents are rich</label><br>
+            <input type="checkbox" id="location" name="location" value="location">
+            <label for="location"></label>is the date at well lit public location</label><br>
+        </fieldset><br>
+        <fieldset>
+            <label for="politicalView">Political Persuation:</label>
+            <select id="politicalView">
+              <option value="Left Wing">Left Wing</option>
+              <option value="Right Wing">Right Wing</option>
+      </select>
+            <label for="educationLevel">Education Level:</label>
+            <select id="educationLevel">
+          <option value="BSc Degree">BSc Degree</option>
+          <option value="Msc Degree">Msc Degree</option>
+          <option value="High School Graduate">High School Graduate</option>
+          <option value="Allergic for education">Allergic for education</option>
+      </select>
+        </fieldset>
+        <fieldset>
+            <legend class="div3">Essay Section</legend>
+            In 50 or more words explain why you want to date my Daughter:</br>
+            <textarea name="comments" id="comments" cols="100" rows="3" maxlength=120>Enter Your Text here!</textarea>
+            <br>Please upload contact detail of two reference:</br>
+            <br><textarea name="comments" id="comments" cols="100" rows="3" maxlength=120>Enter Your Text here!</textarea>
+            <br><label for="file">Upload Police clearance certifcate,Bank statement & Medical certificate:</label>
+            <input type="file" id="fileupload">
+        </fieldset> <br>
+        <input type="submit" class="button" value="Submit your application">
+</form>
+</body>
+</script>
+
+</html>
